@@ -1,0 +1,38 @@
+.pessoa__imagem{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.pessoa__imagem--Nicolas{
+    background: url('../img/Nicolas.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pessoa__imagem--Luiz{
+    background: url('../img/Luiz.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pessoa__imagem--X{
+    background: url('../img/x.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pessoa__imagem--Y{
+    background: url('../img/y.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media(max-width: 700px){
+    .pessoa__imagem{
+        width: 200px;
+        height: 200px;
+    }
+}
